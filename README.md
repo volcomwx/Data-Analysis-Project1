@@ -55,12 +55,12 @@ February experienced a notable decrease in both of the two years, followed by a 
 
 2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.
 
-StoreName	               StoreId	Revenue	    Unit_Sales	 Inventory	 Sell_Through_Rate
-Ben Franklin	           84879	  374340.8 	  115649    	 15893    	 87.92%
-Family Dollar	           71053	  346013.82	  96418	       10879	     89.86%
-Burlington Coat Factory	 22745	  342312.46	  79011	       9206	       89.56%
-Shopko	                 22726	  340826.5	  97426	       11641	     89.33%
-Renys	                   22748	  327836.39	  83244	       9749	       89.52%
+StoreName	               |StoreId	|Revenue	    |Unit_Sales	 |Inventory	 |Sell_Through_Rate
+Ben Franklin	           |84879	  |374340.8 	  |115649    	 |15893    	 |87.92%
+Family Dollar	           |71053	  |346013.82	  |96418	     |10879	     |89.86%
+Burlington Coat Factory	 |22745	  |342312.46	  |79011	     |9206	     |89.56%
+Shopko	                 |22726	  |340826.5	    |97426	     |11641	     |89.33%
+Renys	                   |22748	  |327836.39	  |83244	     |9749	     |89.52%
 
 3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?
 
