@@ -10,6 +10,6 @@ Explore these tables and their underlying data, then write a query that properly
 
 Create a one-page dashboard with a couple of visualizations that provide key insights into the data.  
 
-#Clean the Data
+# Clean the Data
 
 
