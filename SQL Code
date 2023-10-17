@@ -1,0 +1,116 @@
+Q1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?  
+
+1)The total sales revenue in 2020:
+
+SELECT ROUND(SUM(UnitPrice * Quantity), 2) AS Total_Sales_Revenue, 2020 AS Year
+FROM `dluxury.Sales` as ds
+LEFT JOIN `dluxury.Inventory` as di
+ON ds.ProductId = di.ProductId
+LEFT JOIN `dluxury.Products` as dp
+ON dp.ProductId = ds.ProductId
+WHERE EXTRACT(YEAR FROM Date) = 2020
+
+UNION ALL
+
+SELECT ROUND(SUM(UnitPrice * Quantity), 2), 2019
+FROM `dluxury.Sales` as ds
+LEFT JOIN `dluxury.Inventory` as di
+ON ds.ProductId = di.ProductId
+LEFT JOIN `dluxury.Products` as dp
+ON dp.ProductId = ds.ProductId
+WHERE EXTRACT(YEAR FROM Date) = 2019;
+
+Outputs:
+Total_Sales_Revenue	Year
+8329108.88	2020
+8251369.7	2019
+
+2)Year-over-year monthly sales analysis:
+
+select EXTRACT(YEAR FROM ds.Date) AS Year,EXTRACT(MONTH FROM ds.Date) AS Month, round(SUM(UnitPrice*Quantity),2) as Revenue 
+from `dluxury.Sales` as ds 
+left join `dluxury.Inventory` as di on ds.ProductId = di.ProductId
+left join `dluxury.Products` as dp on ds.ProductId = dp.ProductId 
+WHERE
+EXTRACT(YEAR FROM ds.Date) IN (2019, 2020)
+GROUP BY YEAR,MONTH
+order by Year, Month
+
+Year	  Month	 Revenue		|  Year	Month	 Revenue
+2019	  1	     700105.3		|  2020	1	     704686.64
+2019	  2	     632782.2		|  2020	2	     649212.25
+2019	  3	     730295.12	|	 2020	3	     698286.49
+2019	  4	     668014.3		|  2020	4	     704552.06
+2019	  5	     697403.37	|	 2020	5	     709063.18
+2019	  6	     684484.45	|	 2020	6	     668601.55
+2019	  7	     709409.29	|	 2020	7	     701346.89
+2019	  8	     709912.7		|  2020	8	     704410.02
+2019	  9	     686199.31	|	 2020	9	     697858.89
+2019	  10	   688543.59	|	 2020	10  	 700165.45
+2019	  11	   650603.99	|	 2020	11  	 695854.95
+2019	  12	   693616.07	|	 2020	12	   695070.51
+
+
+Q2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.
+
+select 
+StoreName, 
+di.StoreId, 
+ROUND(SUM(UnitPrice * Quantity), 2) as Revenue,
+SUM(Quantity) AS Unit_Sales,
+SUM(di.QuantityAvailable) AS Inventory, 
+CONCAT(ROUND((SUM(Quantity) / (SUM(di.QuantityAvailable) + SUM(Quantity))) * 100, 2), '%') 
+as Sell_Through_Rate
+from `dluxury.Sales` as ds
+LEFT JOIN `dluxury.Inventory` as di
+ON ds.ProductId = di.ProductId
+
+LEFT JOIN `dluxury.Products` as dp
+ON dp.ProductId = ds.ProductId
+where EXTRACT(YEAR FROM Date) = 2018
+group by StoreName,di.StoreId
+order by Revenue desc limit 5
+
+Output:
+
+StoreName   	           StoreId    	Revenue    	Unit_Sales   	Inventory	   Sell_Through_Rate
+Ben Franklin	           84879	      374340.8	  115649	      15893	       87.92%
+Family Dollar	           71053	      346013.82	  96418	        10879	       89.86%
+Burlington Coat Factory	 22745	      342312.46	  79011	        9206	       89.56%
+Shopko	                 22726       	340826.5	  97426	        11641	       89.33%
+Renys	                   22748	      327836.39	  83244	        9749	       89.52%
+
+
+Q3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?
+
+SELECT 
+dp.Supplier AS Supplier,
+ROUND(SUM(ds.UnitPrice * ds.Quantity - dp.ProductCost * ds.Quantity),2) AS Profit
+FROM
+`dluxury.Sales` AS ds
+LEFT JOIN `dluxury.Inventory` as di
+ON ds.ProductId = di.ProductId
+LEFT JOIN `dluxury.Products` as dp
+ON dp.ProductId = ds.ProductId
+WHERE EXTRACT(YEAR FROM Date) = 2019
+GROUP BY dp.Supplier
+ORDER BY Profit DESC
+LIMIT 5
+
+Top 5 products of the suppliers above:
+I started with Ben Franklin’s top5 products:
+
+select Supplier, ProductName, 
+ROUND(SUM(ds.UnitPrice * ds.Quantity - dp.ProductCost * ds.Quantity),2) AS Profit
+from
+ `dluxury.Sales` as ds
+LEFT JOIN `dluxury.Inventory` as di
+ON ds.ProductId = di.ProductId
+LEFT JOIN `dluxury.Products` as dp
+ON dp.ProductId = ds.ProductId
+WHERE EXTRACT(YEAR FROM Date) = 2019 and Supplier = "Ben Franklin"
+group by
+Supplier, ProductName
+order by profit desc
+limit 5
+
