@@ -1,4 +1,4 @@
-Q1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?  
+__Q1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?__  
 
 1)The total sales revenue in 2020:
 
@@ -51,7 +51,7 @@ Year	  Month	 Revenue		|  Year	Month	 Revenue
 2019	  12	   693616.07	|	 2020	12	   695070.51
 
 
-Q2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.
+__Q2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.__
 
 select 
 StoreName, 
@@ -81,7 +81,7 @@ Shopko	                 22726       	340826.5	  97426	        11641	       89.33
 Renys	                   22748	      327836.39	  83244	        9749	       89.52%
 
 
-Q3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?
+__Q3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?__
 
 SELECT 
 dp.Supplier AS Supplier,
