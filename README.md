@@ -10,6 +10,11 @@ Explore these tables and their underlying data, then write a query that properly
 
 Create a one-page dashboard with a couple of visualizations that provide key insights into the data.  
 
+| Header 1 | Header 2 |
+| -------- | -------- |
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
+
 # Clean the Data
 Executive Summary 
 The Data Cleaning process during the Preparation Period aimed to ensure the quality, accuracy, and consistency of our dataset. This report outlines the steps taken, issues identified, and actions performed to clean the data. 
