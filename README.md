@@ -10,11 +10,6 @@ Explore these tables and their underlying data, then write a query that properly
 
 Create a one-page dashboard with a couple of visualizations that provide key insights into the data.  
 
-| Header 1 | Header 2 |
-| -------- | -------- |
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
-
 # Clean the Data
 Executive Summary 
 The Data Cleaning process during the Preparation Period aimed to ensure the quality, accuracy, and consistency of our dataset. This report outlines the steps taken, issues identified, and actions performed to clean the data. 
@@ -44,6 +39,11 @@ Data Cleaning Results
 
 # Answer to the Questions:
 1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?  
+
+| Total_Sales_Revenue | Year |
+| -------- | -------- |
+| 8329108.88 | 2020 |
+| 8251369.7  | 2019 |
 
 The total sales revenue in 2020 was $8,329,108.88. When compared to the year prior (2019), the total sales revenue in 2020 was higher by $77,739.18 ($8,329,108.88 - $8,251,369.70).
 
