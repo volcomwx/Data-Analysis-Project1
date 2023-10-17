@@ -1,0 +1,25 @@
+Executive Summary 
+The Data Cleaning process during the Preparation Period aimed to ensure the quality, accuracy, and consistency of our dataset. This report outlines the steps taken, issues identified, and actions performed to clean the data. 
+
+Data Sources 
+During this phase, I utilized data from three primary sources: Sales, Products, and Inventory tables. 
+
+Data Cleaning Steps 
+
+1)Identifying Missing Values: 
+I systematically examined each table for missing values. Fortunately, I found no missing data, ensuring that our dataset was complete.
+
+2)Handling Duplicate Values: 
+I conducted a thorough check for duplicate values and successfully eliminated any duplicates encountered. 
+
+3)Outlier Detection and Correction: 
+I used plots in Excel to identify and assess outliers. Fortunately, I found no significant outliers in our dataset. 
+
+4)Ensuring Data Consistency: 
+I meticulously cross-referenced foreign keys in the Sales and Inventory tables with the primary keys in the Products and Inventory tables to ensure data consistency. 
+
+Data Cleaning Results 
+No missing values were identified in any of the tables.
+No duplicates in any of the tables. 
+No significant outliers were detected. 
+Data consistency was confirmed across the tables.
