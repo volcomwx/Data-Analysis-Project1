@@ -141,3 +141,112 @@ Top 5 Products are:
 | Burlington Coat Factory | Oranges                     | 9767.52  |
 | Burlington Coat Factory | Lid - 3oz Med Rec            | 9246.53  |
 | Burlington Coat Factory | Table Cloth 54x72 Colour    | 8388     |
+
+# Insights:
+
+__Q1__
+
+The overall yearly comparison indicates a modest YoY increase in total revenue for 2020 compared to 2019. Several months experienced notable changes: March 2020 saw a significant decline in revenue, while April 2020 showed significant growth compared to April 2019. November 2020 had a substantial increase, contributing positively to the overall yearly performance. 
+
+February experienced a notable decrease in both of the two years, followed by a subsequent increase in March.
+
+__Q2__
+
+Sell-Through Rate Variations:
+
+Sell-through rates vary among the stores, with Family Dollar having the highest rate at 89.86% and Ben Franklin having the lowest at 87.92%. These differences indicate varying levels of inventory management and sales performance.
+
+Revenue Performance and Unit Sales Impact:
+
+Ben Franklin generated the highest revenue of $374,340.80. This suggests that while Ben Franklin has a slightly lower sell-through rate, it compensates with higher revenue due to its larger inventory and competitive unit sales. This indicates that while its sell-through rate is slightly lower, it manages to move a significant number of units, resulting in higher overall revenue.
+
+Inventory Management:
+
+Burlington Coat Factory maintains a relatively low inventory of 9,206 units, which is the lowest among the stores. This efficient inventory management contributes to its high sell-through rate.
+
+__Q3__
+
+Diverse Product Mix: 
+
+The top-selling products from these suppliers encompass a wide range of categories, from food items like flour and cheese to specialty products like latex gloves and unique chocolates.
+
+Customer-Centric Approach: 
+
+The presence of everyday essentials and specialty items suggests a customer-centric approach, catering to both daily needs and niche preferences.
+
+Profitable Portfolio: 
+
+The profitability of these products indicates that these suppliers have identified items that resonate well with their customer base.
+
+
+
+# Recommendations: 
+
+__Q1__
+
+Given the YoY growth, it's crucial to continue analyzing monthly revenue trends to identify contributing factors. 
+
+Investigate the reasons behind the March decline and consider strategies to mitigate similar fluctuations in the future. 
+
+Capitalize on the positive growth months, such as April and November, by examining the factors that led to increased revenue and replicating successful strategies. 
+
+__Q2__
+Inventory Optimization: 
+
+Keep optimizing inventory levels to align better with unit sales. Maintaining an appropriate balance between inventory and sales can lead to improved sell-through rates.
+
+Marketing Strategies: 
+
+Explore marketing and promotional strategies to boost unit sales and, consequently, revenue. Identifying which products perform well and promoting them effectively can be beneficial.
+
+Benchmarking: 
+
+Benchmark the performance of each store against industry standards and competitors. This can help stores set realistic sell-through rate targets and improve their overall performance.
+
+Inventory Turnover: 
+
+Focus on improving inventory turnover rates, especially for stores with lower sell-through rates. Implement efficient inventory management practices to reduce carrying costs and avoid overstocking.
+
+Customer Engagement: 
+
+Invest in customer engagement initiatives to boost unit sales. Satisfied customers are more likely to make repeat purchases, leading to higher sell-through rates.
+
+Seasonal Planning: 
+
+Plan inventory and promotions according to seasonal demand patterns. Stores can take advantage of peak seasons to improve sell-through rates.
+
+Performance Monitoring: 
+
+Implement regular performance monitoring and reporting to track progress toward improving sell-through rates. Make data-driven decisions based on trends and insights.
+
+__Q3__
+
+Inventory Optimization: 
+
+Continuously optimize inventory levels for these top products to prevent stockouts and reduce carrying costs.
+
+Marketing Strategies: 
+
+Develop effective marketing and promotion strategies for these items, highlighting their unique features and benefits.
+
+Supplier Relationships: 
+
+Strengthen relationships with suppliers to ensure a consistent and reliable supply of these profitable products.
+
+Product Diversification: 
+
+Explore opportunities to expand the product portfolio with items that align with customer preferences and market trends.
+
+Customer Engagement: 
+
+Engage with customers to gather feedback and insights, helping tailor the product mix to evolving preferences.
+
+Data-Driven Decisions: 
+
+Use data analytics to monitor performance and make informed decisions regarding inventory, pricing, and marketing efforts.
+
+# Conclusion: 
+
+The analysis of monthly revenue for 2019 and 2020 provides valuable insights into year-over-year performance. Understanding the trends and specific months of growth or decline can aid in decision-making and future revenue optimization strategies. 
+
+For more in-depth analysis and strategic planning, further examination of external factors and market conditions is recommended to gain a holistic view of revenue performance.
