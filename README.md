@@ -42,7 +42,8 @@ I used plots in Excel to identify and assess outliers. Fortunately, I found no s
 
 I meticulously cross-referenced foreign keys in the Sales and Inventory tables with the primary keys in the Products and Inventory tables to ensure data consistency. 
 
-Data Cleaning Results 
+Data Cleaning Results:
+
 
 No missing values were identified in any of the tables.
 
@@ -65,9 +66,11 @@ The total sales revenue in 2020 was $8,329,108.88. When compared to the year pri
 1)Year-over-Year Comparison: 
 
 Percentage Change = ((Total Revenue in 2020 - Total Revenue in 2019) / Total Revenue in 2019) * 100 
+
 Percentage Change = (($8,329,108.88 - $8,251,369.70) / $8,251,369.70) * 100 ≈ 0.94%
 
 2)Year-over-year monthly sales analysis:
+
 The overall yearly comparison indicates a modest YoY increase in total revenue for 2020 compared to 2019. Several months experienced notable changes: March 2020 saw a significant decline in revenue, while April 2020 showed significant growth compared to April 2019. November 2020 had a substantial increase, contributing positively to the overall yearly performance. 
 
 February experienced a notable decrease in both of the two years, followed by a subsequent increase in March.
@@ -75,12 +78,13 @@ February experienced a notable decrease in both of the two years, followed by a 
 
 2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.
 
-StoreName	               |StoreId	|Revenue	    |Unit_Sales	 |Inventory	 |Sell_Through_Rate
-Ben Franklin	           |84879	  |374340.8 	  |115649    	 |15893    	 |87.92%
-Family Dollar	           |71053	  |346013.82	  |96418	     |10879	     |89.86%
-Burlington Coat Factory	 |22745	  |342312.46	  |79011	     |9206	     |89.56%
-Shopko	                 |22726	  |340826.5	    |97426	     |11641	     |89.33%
-Renys	                   |22748	  |327836.39	  |83244	     |9749	     |89.52%
+|StoreName	               |StoreId	|Revenue	    |Unit_Sales	 |Inventory	 |Sell_Through_Rate|
+| -------- | -------- | -------- | -------- |-------- | -------- |
+|Ben Franklin	           |84879	  |374340.8 	  |115649    	 |15893    	 |87.92%|
+|Family Dollar	           |71053	  |346013.82	  |96418	     |10879	     |89.86%|
+|Burlington Coat Factory	 |22745	  |342312.46	  |79011	     |9206	     |89.56%|
+|Shopko	                 |22726	  |340826.5	    |97426	     |11641	     |89.33%|
+|Renys	                   |22748	  |327836.39	  |83244	     |9749	     |89.52%|
 
 3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?
 
