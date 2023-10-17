@@ -79,9 +79,6 @@ February experienced a notable decrease in both of the two years, followed by a 
 2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.
 
 
-The table you provided appears to be formatted correctly for Markdown. Here's the table you provided:
-
-
 |StoreName                  |StoreId |Revenue   |Unit_Sales |Inventory |Sell_Through_Rate|
 |---------------------------|--------|----------|-----------|----------|------------------|
 |Ben Franklin               |84879   |374340.8  |115649     |15893     |87.92%            |
