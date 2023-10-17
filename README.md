@@ -1,6 +1,6 @@
 # Data Analysis on an E-commerce Company's Operations
 
-This is an demostration of SQL and Analysis skills along with data visualization skills as an emxaple:
+This is an demostration of SQL and Analysis skills along with data visualization skills as an emxaple （non-sensitive data）:
 
 __Inquiry:__
 
