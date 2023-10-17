@@ -1,41 +1,56 @@
 # Data-Analysis-Project1
+
 This is an demostration of SQL and Analysis skills along with data visualization skills as an emxaple:
 
 Inquiry:
+
 Explore these tables and their underlying data, then write a query that properly joins these three tables. Please answer the following questions and provide a copy of your script along with the output in your answer document.
 
 1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?  Note that sales revenue is a derived field from the KPIs provided.
+
 2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %. Note that ST% is a derived field from the KPIs provided.
+
 3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019? Note that profit is a derived field from the KPIs provided.
 
 Create a one-page dashboard with a couple of visualizations that provide key insights into the data.  
 
 # Clean the Data
+
 Executive Summary 
+
 The Data Cleaning process during the Preparation Period aimed to ensure the quality, accuracy, and consistency of our dataset. This report outlines the steps taken, issues identified, and actions performed to clean the data. 
 
 Data Sources 
+
 During this phase, I utilized data from three primary sources: Sales, Products, and Inventory tables. 
 
 Data Cleaning Steps 
 
 1)Identifying Missing Values: 
+
 I systematically examined each table for missing values. Fortunately, I found no missing data, ensuring that our dataset was complete.
 
 2)Handling Duplicate Values: 
+
 I conducted a thorough check for duplicate values and successfully eliminated any duplicates encountered. 
 
 3)Outlier Detection and Correction: 
+
 I used plots in Excel to identify and assess outliers. Fortunately, I found no significant outliers in our dataset. 
 
 4)Ensuring Data Consistency: 
+
 I meticulously cross-referenced foreign keys in the Sales and Inventory tables with the primary keys in the Products and Inventory tables to ensure data consistency. 
 
 Data Cleaning Results 
-No missing values were identified in any of the tables.
-No duplicates in any of the tables. 
-No significant outliers were detected. 
-Data consistency was confirmed across the tables.
+
+No missing values were identified in any of the tables.
+
+No duplicates in any of the tables. 
+
+No significant outliers were detected. 
+
+Data consistency was confirmed across the tables.
 
 # Answer to the Questions:
 1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?  
