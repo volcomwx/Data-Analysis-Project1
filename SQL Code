@@ -20,11 +20,6 @@ LEFT JOIN `dluxury.Products` as dp
 ON dp.ProductId = ds.ProductId
 WHERE EXTRACT(YEAR FROM Date) = 2019;
 
-Outputs:
-| Total_Sales_Revenue | Year |
-|--------------------|------|
-| 8329108.88         | 2020 |
-| 8251369.7          | 2019 |
 
 2)Year-over-year monthly sales analysis:
 
