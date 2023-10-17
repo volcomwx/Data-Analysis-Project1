@@ -2,7 +2,7 @@
 
 This is an demostration of SQL and Analysis skills along with data visualization skills as an emxaple:
 
-Inquiry:
+__Inquiry:__
 
 Explore these tables and their underlying data, then write a query that properly joins these three tables. Please answer the following questions and provide a copy of your script along with the output in your answer document.
 
@@ -16,15 +16,15 @@ Create a one-page dashboard with a couple of visualizations that provide key ins
 
 # Clean the Data
 
-Executive Summary 
+__Executive Summary__ 
 
 The Data Cleaning process during the Preparation Period aimed to ensure the quality, accuracy, and consistency of our dataset. This report outlines the steps taken, issues identified, and actions performed to clean the data. 
 
-Data Sources 
+__Data Sources__ 
 
 During this phase, I utilized data from three primary sources: Sales, Products, and Inventory tables. 
 
-Data Cleaning Steps 
+__Data Cleaning Steps__ 
 
 1)Identifying Missing Values: 
 
@@ -42,7 +42,7 @@ I used plots in Excel to identify and assess outliers. Fortunately, I found no s
 
 I meticulously cross-referenced foreign keys in the Sales and Inventory tables with the primary keys in the Products and Inventory tables to ensure data consistency. 
 
-Data Cleaning Results:
+__Data Cleaning Results:__
 
 
 No missing values were identified in any of the tables.
@@ -54,7 +54,7 @@ No significant outliers were detected.
 Data consistency was confirmed across the tables.
 
 # Answer to the Questions:
-1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?  
+__1.What was the total sales revenue in 2020, and how did this compare to the year prior?  Are there any particular months that drove or hurt sales year-over-year?__  
 
 | Total_Sales_Revenue | Year |
 | -------- | -------- |
@@ -76,7 +76,7 @@ The overall yearly comparison indicates a modest YoY increase in total revenue f
 February experienced a notable decrease in both of the two years, followed by a subsequent increase in March.
 
 
-2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.
+__2.What were the Top 5 Stores (based on revenue) in 2018 and what was their Inventory Sell-Through %? Please provide the store ID, store name, revenue, unit sales, inventory, and sell-through %.__
 
 
 |StoreName                  |StoreId |Revenue   |Unit_Sales |Inventory |Sell_Through_Rate|
@@ -87,7 +87,7 @@ February experienced a notable decrease in both of the two years, followed by a 
 |Shopko                     |22726   |340826.5  |97426      |11641     |89.33%            |
 |Renys                      |22748   |327836.39 |83244      |9749      |89.52%            |
 
-3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?
+__3.What were the Top 5 Suppliers and each of their Top 5 Products (based on profit) in 2019?__
 
 The top 5 Suppliers are:
 
