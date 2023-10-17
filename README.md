@@ -94,46 +94,53 @@ The table you provided appears to be formatted correctly for Markdown. Here's th
 
 The top 5 Suppliers are:
 
-Supplier         	       Profit
-Ben Franklin	           160028.5
-Shopko	                 151974.58
-Family Dollar	           144965.16
-Renys	                   138228.15
-Burlington Coat Factory	 137484.6
+| Supplier                | Profit     |
+|-------------------------|------------|
+| Ben Franklin            | 160028.5   |
+| Shopko                  | 151974.58  |
+| Family Dollar           | 144965.16  |
+| Renys                   | 138228.15  |
+| Burlington Coat Factory | 137484.6   |
 
 Top 5 Products are:
 
-Supplier	    ProductName	                  Profit
-Ben Franklin	Flour - Rye	                  18374.92
-Ben Franklin	Soup - Campbells, Minestrone	13474.8
-Ben Franklin	Wine - Red, Metus Rose	      8508
-Ben Franklin	Parsley Italian - Fresh	      7884.81
-Ben Franklin	Pepper - Cubanelle	          7606.4
+| Supplier      | ProductName                     | Profit   |
+|---------------|---------------------------------|----------|
+| Ben Franklin  | Flour - Rye                     | 18374.92 |
+| Ben Franklin  | Soup - Campbells, Minestrone    | 13474.8  |
+| Ben Franklin  | Wine - Red, Metus Rose          | 8508     |
+| Ben Franklin  | Parsley Italian - Fresh         | 7884.81  |
+| Ben Franklin  | Pepper - Cubanelle              | 7606.4   |
 
-Supplier	ProductName                        	Profit
-Shopko	  Chocolate - Liqueur Cups With Foil	17021.21
-Shopko	  Latex Rubber Gloves Size 9	        11019.16
-Shopko	  Wine - Cousino Macul Antiguas	      10269
-Shopko	  Cheese - Pont Couvert	              9245.61
-Shopko	  Bandage - Fexible 1x3	              7790.55
 
-Supplier	     ProductName	                 Profit
-Family Dollar	 Cheese - Valancey          	 10450.08
-Family Dollar	 Onions - Cooking	             10424.4
-Family Dollar	 Container - Foam Dixie 12 Oz	 9715.2
-Family Dollar	 Coffee Cup 16oz Foam	         9429.37
-Family Dollar	 Juice - Apple, 500 Ml	       8058.26
+| Supplier | ProductName                        | Profit   |
+|----------|-----------------------------------|----------|
+| Shopko   | Chocolate - Liqueur Cups With Foil | 17021.21 |
+| Shopko   | Latex Rubber Gloves Size 9        | 11019.16 |
+| Shopko   | Wine - Cousino Macul Antiguas     | 10269    |
+| Shopko   | Cheese - Pont Couvert             | 9245.61  |
+| Shopko   | Bandage - Flexible 1x3            | 7790.55  |
 
-Supplier	ProductName	                     Profit
-Renys	    Bread - Italian Sesame Poly	     14318.53
-Renys	    Vodka - Hot, Lnferno	           13200.66
-Renys	    Pepper - Green, Chili	           11412.54
-Renys	    Tarragon - Primerba, Paste	     7272.6
-Renys	    Soup - Tomato Mush. Florentine	 6463.1
+| Supplier      | ProductName                     | Profit   |
+|---------------|---------------------------------|----------|
+| Family Dollar | Cheese - Valancey               | 10450.08 |
+| Family Dollar | Onions - Cooking                | 10424.4  |
+| Family Dollar | Container - Foam Dixie 12 Oz    | 9715.2   |
+| Family Dollar | Coffee Cup 16oz Foam            | 9429.37  |
+| Family Dollar | Juice - Apple, 500 Ml           | 8058.26  |
 
-Supplier	                ProductName	                   Profit
-Burlington Coat Factory	  Chips Potato Salt Vinegar 43g	 13145.63
-Burlington Coat Factory	  Soup - French Onion, Dry	     9938.09
-Burlington Coat Factory	  Oranges	                       9767.52
-Burlington Coat Factory	  Lid - 3oz Med Rec	             9246.53
-Burlington Coat Factory	  Table Cloth 54x72 Colour	     8388
+| Supplier | ProductName                       | Profit   |
+|----------|-----------------------------------|----------|
+| Renys    | Bread - Italian Sesame Poly       | 14318.53 |
+| Renys    | Vodka - Hot, Inferno               | 13200.66 |
+| Renys    | Pepper - Green, Chili              | 11412.54 |
+| Renys    | Tarragon - Primerba, Paste         | 7272.6  |
+| Renys    | Soup - Tomato Mush. Florentine     | 6463.1  |
+
+| Supplier                | ProductName                  | Profit   |
+|-------------------------|-----------------------------|----------|
+| Burlington Coat Factory | Chips Potato Salt Vinegar 43g | 13145.63 |
+| Burlington Coat Factory | Soup - French Onion, Dry     | 9938.09  |
+| Burlington Coat Factory | Oranges                     | 9767.52  |
+| Burlington Coat Factory | Lid - 3oz Med Rec            | 9246.53  |
+| Burlington Coat Factory | Table Cloth 54x72 Colour    | 8388     |
